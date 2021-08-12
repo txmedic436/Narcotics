@@ -3,40 +3,48 @@
         "name": "Station 1",
         "location": "1705 E. 9TH St",
         "locationType": "Station",
+        "id": 101,
     },
     {
         "name": "Station 2",
         "location": "5503 Marsha Sharp Fwy",
         "locationType": "Station",
+        "id": 102,
     },
     {
         "name": "Station 4",
         "location": "2376 74th St",
         "locationType": "Station",
+        "id": 104,
     },
     {
         "name": "Station 5",
         "location": "2222 35th St",
         "locationType": "Station",
+        "id": 105,
     },
     {
         "name": "Station 12",
         "location": "5814 64th St",
         "locationType": "Station",
+        "id": 112,
     },
     {
         "name": "Station 14",
         "location": "11310 Slide Rd",
         "locationType": "Station",
+        "id": 114,
     },
     {
         "name": "T151",
         "location": "Station 1",
         "locationType": "Truck",
+        "id": 2151
     },
     {
         "name": "T148",
         "location": "Station 5",
         "locationType": "Truck",
+        "id": 2148
     },
 ]
