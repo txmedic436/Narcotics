@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Station 1",
+        "location": "1705 E. 9TH St",
+        "locationType": "Station",
+    },
+    {
+        "name": "Station 2",
+        "location": "5503 Marsha Sharp Fwy",
+        "locationType": "Station",
+    },
+    {
+        "name": "Station 4",
+        "location": "2376 74th St",
+        "locationType": "Station",
+    },
+    {
+        "name": "Station 5",
+        "location": "2222 35th St",
+        "locationType": "Station",
+    },
+    {
+        "name": "Station 12",
+        "location": "5814 64th St",
+        "locationType": "Station",
+    },
+    {
+        "name": "Station 14",
+        "location": "11310 Slide Rd",
+        "locationType": "Station",
+    },
+    {
+        "name": "T151",
+        "location": "Station 1",
+        "locationType": "Truck",
+    },
+    {
+        "name": "T148",
+        "location": "Station 5",
+        "locationType": "Truck",
+    },
+]
