@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            ScanView()
+                .tabItem {
+                    Label("Scan", systemImage: "qrcode.viewfinder")
+                }
+            SafeView()
+                .tabItem {
+                    Label("Safes", systemImage: "lock.shield")
+                }
+        }
     }
 }
 
@@ -19,3 +32,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

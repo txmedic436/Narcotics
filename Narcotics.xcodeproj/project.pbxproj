@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01B185F26B209F000A7C449 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01B185E26B209F000A7C449 /* HomeView.swift */; };
+		D01B186126B21B5000A7C449 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01B186026B21B5000A7C449 /* ScanView.swift */; };
+		D020A09926C56F7D008384C2 /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D020A09826C56F7D008384C2 /* FetchData.swift */; };
+		D031897A26B0A06500ABB88B /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031897926B0A06500ABB88B /* MedicationView.swift */; };
+		D031897C26B0A52B00ABB88B /* SafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031897B26B0A52B00ABB88B /* SafeView.swift */; };
 		D0673D7426AF57CA00A8F190 /* NarcoticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0673D7326AF57CA00A8F190 /* NarcoticsApp.swift */; };
 		D0673D7626AF57CA00A8F190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0673D7526AF57CA00A8F190 /* ContentView.swift */; };
 		D0673D7826AF57CE00A8F190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0673D7726AF57CE00A8F190 /* Assets.xcassets */; };
 		D0673D7B26AF57CE00A8F190 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0673D7A26AF57CE00A8F190 /* Preview Assets.xcassets */; };
+		D0673D8326AF5F2700A8F190 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0673D8226AF5F1F00A8F190 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D01B185E26B209F000A7C449 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D01B186026B21B5000A7C449 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		D020A09826C56F7D008384C2 /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		D031897926B0A06500ABB88B /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
+		D031897B26B0A52B00ABB88B /* SafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeView.swift; sourceTree = "<group>"; };
 		D0673D7026AF57CA00A8F190 /* Narcotics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Narcotics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0673D7326AF57CA00A8F190 /* NarcoticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarcoticsApp.swift; sourceTree = "<group>"; };
 		D0673D7526AF57CA00A8F190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0673D7726AF57CE00A8F190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0673D7A26AF57CE00A8F190 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0673D7C26AF57CE00A8F190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0673D8226AF5F1F00A8F190 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D01B185D26B2063C00A7C449 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D01B185E26B209F000A7C449 /* HomeView.swift */,
+				D01B186026B21B5000A7C449 /* ScanView.swift */,
+				D0673D8226AF5F1F00A8F190 /* LoginView.swift */,
+				D031897B26B0A52B00ABB88B /* SafeView.swift */,
+				D031897926B0A06500ABB88B /* MedicationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D020A09726C56F39008384C2 /* Data Engines */ = {
+			isa = PBXGroup;
+			children = (
+				D020A09826C56F7D008384C2 /* FetchData.swift */,
+			);
+			path = "Data Engines";
+			sourceTree = "<group>";
+		};
 		D0673D6726AF57CA00A8F190 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +84,8 @@
 		D0673D7226AF57CA00A8F190 /* Narcotics */ = {
 			isa = PBXGroup;
 			children = (
+				D020A09726C56F39008384C2 /* Data Engines */,
+				D01B185D26B2063C00A7C449 /* Views */,
 				D0673D7326AF57CA00A8F190 /* NarcoticsApp.swift */,
 				D0673D7526AF57CA00A8F190 /* ContentView.swift */,
 				D0673D7726AF57CE00A8F190 /* Assets.xcassets */,
@@ -138,7 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01B186126B21B5000A7C449 /* ScanView.swift in Sources */,
+				D031897A26B0A06500ABB88B /* MedicationView.swift in Sources */,
+				D0673D8326AF5F2700A8F190 /* LoginView.swift in Sources */,
+				D031897C26B0A52B00ABB88B /* SafeView.swift in Sources */,
+				D01B185F26B209F000A7C449 /* HomeView.swift in Sources */,
 				D0673D7626AF57CA00A8F190 /* ContentView.swift in Sources */,
+				D020A09926C56F7D008384C2 /* FetchData.swift in Sources */,
 				D0673D7426AF57CA00A8F190 /* NarcoticsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
